@@ -2,11 +2,6 @@ body{
   font-family: DM Sans;
   width: px;  
 }
-.wrapper{
-  margin-left: auto;
-  margin-right: auto;
-  width:auto
-}
 .headerdiv{
   display: flex;
   height: 150px;
@@ -579,4 +574,21 @@ select{
 }
 .selector{
   padding-right: 190px;
+}
+.homediv:hover{
+  text-decoration: underline;
+  text-decoration-color: #3D4F63;
+  text-decoration-thickness: 8px;
+}
+.signbutton:hover{
+  opacity: 0.8;
+}
+.signbutton:active{
+  opacity:0.5;
+}
+.searchbutton:hover{
+  opacity: 0.8;
+}
+.searchbutton:active{
+  opacity:0.5;
 }
